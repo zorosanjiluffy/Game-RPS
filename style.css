@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.choices {
+    margin-bottom: 30px;
+
+
+}
+
+.btns {
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.small-text {
+    font-size: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.choices button {
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.choices button:hover {
+    background-color: hsl(121, 69%, 58%);
+    transform: translateY(-5px);
+
+
+}
+
+.choices button:active {
+    background-color: rgb(199, 35, 35);
+}
+
+#Playerdisplay,
+#Computerdisplay {
+    font-size: 2.5rem;
+}
+
+#Resultdisplay {
+    font-size: 5rem;
+    margin: 30px 0;
+
+}
+
+#game {
+    background-color: rgb(159, 182, 188);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#resetButton {
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: rgb(6, 33, 55);
+    color: aliceblue;
+}
+
+#resetButton:hover {
+    box-shadow: 3px 3px 5px black;
+    font-size: 1.6rem;
+    background-color: aqua;
+    color: black;
+    transition: background 0.5s ease;
+
+}
+
+.greentext,
+#playerscore {
+    color: green;
+}
+
+.redtext,
+#computerscore {
+    color: red;
+}
+
+.scoredisplay {
+    font-size: 2rem;
+
+}
